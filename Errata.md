@@ -36,3 +36,4 @@ Zhou Jing | 23 | 1105 | Change `Length = 10` in listing 23.20 to `Length = 12` t
 Zhou Jing | 18 | 926-927 | Change 'LastName' references to be 'FirstName' in paragraphs
 Jinhang He | 5 | 255 | Edit listing 5.20 to used `image[index]` for the second print statement
 Zhou Jing | 18 | 908 | Change comment in Listing 18.21 to "Restrict the attribute to properties and fields" from "Restrict the attribute to properties and methods"
+Zhou Jing | 23 | 1080 | Change "DWORD flProtect); // The type of memory allocation" to "// The type of memory protection"
