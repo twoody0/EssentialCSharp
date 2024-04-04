@@ -38,3 +38,4 @@ Jinhang He | 5 | 255 | Edit listing 5.20 to used `image[index]` for the second p
 Zhou Jing | 18 | 908 | Change comment in Listing 18.21 to "Restrict the attribute to properties and fields" from "Restrict the attribute to properties and methods"
 Zhou Jing | 23 | 1080 | Change "DWORD flProtect); // The type of memory allocation" to "// The type of memory protection"
 Zhou Jing | 22 | 1065 - 1066 | Changed 'Thread' to 'Task' and "Application exiting" to "Application shutting down"
+Zhou Jing | 4 | 161 | Fix `input < 9` to `input < 0` in Listing 4.24
