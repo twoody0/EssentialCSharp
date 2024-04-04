@@ -9,7 +9,7 @@ public class Listing21_20_Tests
     public void GetProcessorIdReturnsCorrectValue()
     {
         string expected = @"Processor Id: *";
-        if (!System.Runtime.InteropServices.RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
+        if (!RuntimeInformation.IsOSPlatform(OSPlatform.Windows))
         {
             expected = "This sample is only valid for Windows";
         }

@@ -34,7 +34,7 @@ public class Program
                     Marshal.Copy(
                         codeBytes, 0,
                         codeBytesPtr, codeBytes.Length);
-                    
+
                     delegate*<byte*, void> method = (delegate*<byte*, void>)(IntPtr)codeBytesPtr;
                     method(&buffer[0]);
                 }
@@ -52,10 +52,10 @@ public class Program
     }
 }
 
-[System.Runtime.CompilerServices.InlineArrayAttribute(Length)]
+[System.Runtime.CompilerServices.InlineArray(Length)]
 public struct Buffer
 {
-    public const int Length = 10;
+    public const int Length = 12;
 
     private byte _element0;
 }
