@@ -1,4 +1,4 @@
-﻿// Justification: Only snippets of source code shown for elucidation.
+// Justification: Only snippets of source code shown for elucidation.
 #pragma warning disable CS0168 // Variable is declared but never used
 
 namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter03.Table03_02;
@@ -42,11 +42,11 @@ public class ArrayHighlights
             "Python", "Lisp", "JavaScript"};
         // Retrieve fifth item in languages array (TypeScript)
         string language = languages[4];
-        // Write “TypeScript”
+        // Write "TypeScript"
         Console.WriteLine(language);
-        // Retrieve second item from the end (Python)
+        // Retrieve third item from the end (Python)
         language = languages[^3];
-        // Write “Python”
+        // Write "Python"
         Console.WriteLine(language);
     }
 
