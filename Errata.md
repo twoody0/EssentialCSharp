@@ -34,3 +34,4 @@ Zhou Jing | 18 | 911 | Change CommandLineRequiredAttribute to CommandLineSwitchR
 Zhou Jing | 18 | 902-903 | Change CommandLineAliasAttribute to CommandLineSwitchAliasAttribute
 Zhou Jing | 23 | 1105 | Change `Length = 10` in listing 23.20 to `Length = 12` to show entire output message
 Zhou Jing | 18 | 926-927 | Change 'LastName' references to be 'FirstName' in paragraphs
+Jinhang He | 5 | 255 | Edit listing 5.20 to used `image[index]` for the second print statement
