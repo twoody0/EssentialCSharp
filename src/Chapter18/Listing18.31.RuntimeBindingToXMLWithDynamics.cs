@@ -8,12 +8,12 @@ public class Program
         #region INCLUDE
         dynamic person = DynamicXml.Parse(
          @"<Person>
-                <FirstName>Inigo</FirstName>
-                <LastName>Montoya</LastName>
-               </Person>");
+                  <FirstName>Inigo</FirstName>
+                  <LastName>Montoya</LastName>
+                </Person>");
 
         Console.WriteLine(
-            $"{ person.FirstName } { person.LastName }");
+            $"{person.FirstName} {person.LastName}");
         //...
         #endregion INCLUDE
     }

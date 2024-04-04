@@ -33,3 +33,4 @@ Zhou Jing | 20 | 1018 | Change paragraph beginning with "The need to support TAP
 Zhou Jing | 18 | 911 | Change CommandLineRequiredAttribute to CommandLineSwitchRequiredAttribute
 Zhou Jing | 18 | 902-903 | Change CommandLineAliasAttribute to CommandLineSwitchAliasAttribute
 Zhou Jing | 23 | 1105 | Change `Length = 10` in listing 23.20 to `Length = 12` to show entire output message
+Zhou Jing | 18 | 926-927 | Change 'LastName' references to be 'FirstName' in paragraphs

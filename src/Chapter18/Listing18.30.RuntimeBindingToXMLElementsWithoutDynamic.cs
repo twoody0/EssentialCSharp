@@ -15,8 +15,9 @@ public class Program
                     <LastName>Montoya</LastName>
                   </Person>");
 
-        Console.WriteLine($"{ person.Descendants("FirstName").First().Value }" +
-        $"{ person.Descendants("LastName").First().Value }");
+        Console.WriteLine(
+            $"{person.Descendants("FirstName").First().Value}" +
+            $"{person.Descendants("LastName").First().Value}");
         //...
         #endregion INCLUDE
     }
