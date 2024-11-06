@@ -7,24 +7,18 @@ public class ProgramTests
     [TestMethod]
     public void MainTest()
     {
-        const string expectedInput = "Hello, World!";
-        const string expectedOutput = "Hello, World!";
+        const string expectedOutput = "ValidInput";
+        string simulatedInput = "\n   \nValidInput\n";
 
-        StringReader reader = new (expectedInput);
-        StringWriter writer = new ();
-        try
-        {
-            Console.SetIn(reader);
-            Console.SetOut(writer);
-            Program.Main();
-
-            string actualOutput = writer.ToString().Trim();
-            Assert.AreEqual(expectedOutput, actualOutput);
-        }
-        finally
-        {
-            reader.Dispose();
-            writer.Dispose();
-        }
+        IntelliTect.TestTools.Console.ConsoleAssert.Expect(
+            expectedOutput,
+            () =>
+            {
+                using (StringReader simulatedReader = new (simulatedInput))
+                {
+                    Console.SetIn(simulatedReader);
+                    Program.Main();
+                }
+            });
     }
 }
