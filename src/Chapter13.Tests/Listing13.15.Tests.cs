@@ -1,5 +1,4 @@
-﻿using System.IO;
-
+﻿
 namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter13.Listing13_15.Tests;
 
 [TestClass]
