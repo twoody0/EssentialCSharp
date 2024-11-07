@@ -1,5 +1,4 @@
-﻿
-namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter13.Listing13_15.Tests;
+﻿namespace AddisonWesley.Michaelis.EssentialCSharp.Chapter13.Listing13_15.Tests;
 
 [TestClass]
 public class ProgramTests
@@ -7,18 +6,10 @@ public class ProgramTests
     [TestMethod]
     public void MainTest()
     {
-        const string expectedOutput = "ValidInput";
-        string simulatedInput = "\n   \nValidInput\n";
+        const string expected = "<<ValidInput>>ValidInput";
 
         IntelliTect.TestTools.Console.ConsoleAssert.Expect(
-            expectedOutput,
-            () =>
-            {
-                using (StringReader simulatedReader = new (simulatedInput))
-                {
-                    Console.SetIn(simulatedReader);
-                    Program.Main();
-                }
-            });
+            expected, Program.Main
+        );
     }
 }
