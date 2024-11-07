@@ -22,6 +22,7 @@ public class Program
             };
         //...
         #endregion INCLUDE
-        Console.WriteLine(getUserInput());
+        string input = getUserInput();
+        Console.WriteLine(input);
     }
 }
